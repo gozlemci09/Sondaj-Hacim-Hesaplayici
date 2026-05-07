@@ -1,0 +1,3 @@
+([('Sondaj_Hacim_Hesaplayici',
+   '/Users/vahapsevgili/Desktop/Sondaj_Uygulamasi/dist/Sondaj_Hacim_Hesaplayici',
+   'EXECUTABLE')],)
