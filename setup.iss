@@ -4,3 +4,5 @@ AppVersion=1.0
 ... (eski satırlar)
 WizardStyle=modern
 WizardImageFile=logo.bmp
+[Dirs]
+Name: "{app}"; Permissions: users-modify
