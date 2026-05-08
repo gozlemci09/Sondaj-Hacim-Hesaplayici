@@ -24,10 +24,9 @@ jobs:
 
       - name: Python Kodunu EXE Dosyasina Cevir
         run: |
-          pyinstaller --noconfirm --onefile --windowed --name "SondajHacimHesaplayici" "kuyu_hacmi.py"
+          pyinstaller --noconfirm --onefile --windowed --icon="logo.ico" --name "SondajHacimHesaplayici" "kuyu_hacmi.py"
 
       - name: Kurulum Sihirbazini Hazirla
-        # Baştaki & işareti, sistemin bu tırnak içindeki programı çalıştırmasını sağlar
         run: |
           & "C:\Program Files (x86)\Inno Setup 6\iscc.exe" setup.iss
 
